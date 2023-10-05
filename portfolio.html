@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+
+    <!-- FONTES  -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Zetta&family=Lexend:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <!-- FOLHA DE ESTILO  -->
+
+    <link rel="stylesheet" href="CSS/folhadeestiloportfolio.css">
+
+    <!-- FONTE  -->
+
+    <script src="https://kit.fontawesome.com/82163b0541.js" crossorigin="anonymous"></script>
+
+      <!-- FAVICON -->
+      
+      <link rel="shortcut icon" href="Imagens/favicon.png" type="image/x-icon">
+
+</head>
+
+<body>
+
+    <header>
+        <a href="index.html">
+            <div class="logo"><img src="Imagens/logo1.png" alt=""></div>
+        </a>
+        <h1>PORTFÓLIO DA DESIGNER CAMILA ANDRADE</h1>
+
+        <script>
+
+            function typeWriter(elemento) {
+                const textoArray = elemento.innerHTML.split('');
+                elemento.innerHTML = '';
+                textoArray.forEach((letra, i) => {
+                    setTimeout(() =>
+                        elemento.innerHTML += letra, 75 * i);
+
+
+                });
+            }
+
+            const titulo = document.querySelector('h1');
+            typeWriter(titulo);
+
+        </script>
+
+        <div class="redes">
+            <ul>
+                <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-square-whatsapp"></i></a></li>
+
+            </ul>
+        </div>
+    </header>
+    <nav>
+        <ul class="menu">
+            <li><a href="index.html">HOME</li></a>
+            <li><a href="sobre.html">SOBRE</a></li>
+            <li><a href="portfolio.html">PORTFÓLIO</a></li>
+            <li><a href="contato.html">CONTATO</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <h3> PORTFÓLIO
+        </h3>
+
+        <div id="conteudo">
+
+            <div class="box1">
+            <a href="https://www.behance.net/gallery/165709461/Revista-Rap-Brasil" target="_blank"><img src="Imagens/Imagem01.png" alt=""> </a>
+           <a href="https://www.behance.net/gallery/165709461/Revista-Rap-Brasil" target="_blank"> <button>REVISTA RAP BRASIL</button> </a>
+            </div>
+
+            <div class="box2">
+           <a href="https://www.behance.net/gallery/165709293/Livro-Quarto-de-Despejo" target="_blank"><img src="Imagens/Imagem02.png" alt=""> </a> 
+           <a href="https://www.behance.net/gallery/165709293/Livro-Quarto-de-Despejo" target="_blank"> <button>LIVRO QUARTO DE DESPEJO</button> </a>
+            </div>
+
+            <div class="box3"> 
+            <a href="https://www.behance.net/gallery/172877715/Pecas-Graficas-para-Mockup-Digital" target="_blank"><img src="Imagens/Imagem03.png" alt=""> </a>
+           <a href="https://www.behance.net/gallery/172877715/Pecas-Graficas-para-Mockup-Digital" target="_blank"> <button>MOCKUP DIGITAL</button> </a>
+            </div>
+
+            </div>
+
+            <div id="conteudo2">
+
+            <div class="box4">
+            <a href="https://www.behance.net/gallery/165709067/Centro-Veterinario-Seres" target="_blank"><img src="Imagens/Imagem04.png" alt=""> </a>
+           <a href="https://www.behance.net/gallery/165709067/Centro-Veterinario-Seres" target="_blank"> <button>SERES ANATOMY</button> </a>
+        </div>
+
+        <div class="box5">
+        
+        <a href="https://www.behance.net/gallery/165709603/Comunicacao-Interna-e-Endomarketing" target="_blank"><img src="Imagens/Imagem05.png" alt=""> </a> 
+       <a href="https://www.behance.net/gallery/165709603/Comunicacao-Interna-e-Endomarketing" target="_blank"><button>COMUNICAÇÃO INTERNA</button> </a> 
+        </div>
+
+        <div class="box6">
+         
+         <a href="https://www.behance.net/gallery/181368759/Projeto-Desenvolvimento-de-Website-para-Academia" target="_blank"> <img src="Imagens/Imagem06.png" > </a>  
+        <a href="https://www.behance.net/gallery/181368759/Projeto-Desenvolvimento-de-Website-para-Academia" target="_blank"><button>SITE TITO GYM</button></a>
+        </div>
+
+    </div>
+
+
+    </main>
+    <footer>
+
+        <ul>
+            <a href="index.html">
+                <li>HOME</li> <br>
+            </a>
+            <a href="sobre.html">
+                <li>SOBRE</li>
+            </a>
+        </ul>
+
+        <ul>
+            <a href="portfolio.html">
+                <li>PORTFÓLIO</li>
+            </a><br>
+            <a href="contato.html">
+                <li>CONTATO</li>
+            </a>
+        </ul>
+
+        <p>Whatsapp: (11) 97737-6066
+            <br> E-mail: camila.rda@outlook.com
+        </p>
+
+
+
+    </footer>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre</title>
+
+    <!-- FONTES  -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Zetta&family=Lexend:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <!-- FOLHA DE ESTILO  -->
+
+    <link rel="stylesheet" href="CSS/folhadeestilosobre.css">
+
+    <!-- FONTE  -->
+
+    <script src="https://kit.fontawesome.com/82163b0541.js" crossorigin="anonymous"></script>
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="Imagens/favicon.png" type="image/x-icon">
+
+</head>
+
+<body>
+
+    <header>
+        <a href="index.html"><div class="logo"><img src="Imagens/logo1.png" alt=""></div></a>
+        <h1>PORTFÓLIO DA DESIGNER CAMILA ANDRADE</h1>
+
+        <script>
+
+            function typeWriter (elemento) {
+                const textoArray = elemento.innerHTML.split('');
+                elemento.innerHTML = '';
+                textoArray.forEach((letra, i) => {
+                setTimeout (() => 
+                    elemento.innerHTML += letra, 75 * i);
+                
+
+                });
+            }
+
+            const titulo = document.querySelector('h1');
+            typeWriter (titulo);
+
+        </script>
+
+        <div class="redes">
+            <ul>
+                <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-square-whatsapp"></i></a></li>
+
+            </ul>
+        </div>
+    </header>
+    <nav>
+        <ul class="menu">
+            <li><a href="index.html">HOME</li></a>
+            <li><a href="sobre.html">SOBRE</a></li>
+            <li><a href="portfolio.html">PORTFÓLIO</a></li>
+            <li><a href="contato.html">CONTATO</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div id="conteudo">
+
+            <div class="quemsoueu">
+                <h3> QUEM <span>SOU EU </span>
+                </h3>
+                
+                <img src="Imagens/eu1.png" alt="">
+            </div>
+
+            <div class="texto">
+                <p>Formada em Publicidade e Propaganda, possuo um <br>grande apreço por <span> comunicação, design e tecnologia. </span><br>
+                    Através do meu trabalho proporciono soluções criativas <br>
+                    e eficientes, a fim de transmitir a mensagem que o seu <br>negócio precisa e gerar mais oportunidades.</p>
+            
+                <div class="box">
+                    <a href="contato.html">SOLICITE JÁ O SEU ORÇAMENTO!</a>
+                </div> 
+
+          </div>
+
+    </main>
+    <footer>
+
+        <ul>
+            <a href="index.html">
+                <li>HOME</li> <br>
+            </a>
+            <a href="sobre.html">
+                <li>SOBRE</li>
+            </a>
+        </ul>
+
+        <ul>
+            <a href="portfolio.html">
+                <li>PORTFÓLIO</li>
+            </a><br>
+            <a href="contato.html">
+                <li>CONTATO</li>
+            </a>
+        </ul>
+
+        <p>Whatsapp: (11) 97737-6066
+            <br> E-mail: camila.rda@outlook.com
+        </p>
+
+
+
+    </footer>
+
+
+
+</body>
+
+</html>
